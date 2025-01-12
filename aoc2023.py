@@ -21,7 +21,7 @@ def main():
     parser.add_argument("--star", type=int, help="Puzzle star")
     parser.add_argument('--dir', type=str, help='Input data directory')
     args = parser.parse_args()
-    modules[f'day{args.number:02.0f}'].run(args.dir, args.star)
+    modules[f'day{args.day:02.0f}'].run(args.dir, args.star)
 
 
 if __name__ == "__main__":
