@@ -12,7 +12,10 @@
 # Determine the number of ways you could beat the record in each race. What do you get if you multiply these numbers
 # together?
 
-# Second star: description
+# Second star: As the race is about to start, you realize the piece of paper with race times and record distances you
+# got earlier actually just has very bad kerning. There's really only one race - ignore the spaces between the numbers
+# on each line.
+# How many ways can you beat the record in this one much longer race?
 
 import os
 import sys
